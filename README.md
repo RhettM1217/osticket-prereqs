@@ -50,7 +50,8 @@ Create a virtual machine using Azure. Must have 2 CPUs and 16 GB of RAM.
 </p>
 <p>
  <img src="https://i.imgur.com/sz5rSru.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Once you've completed the last step you'll need to enable IIS with CGI. To do this you'll need to go to the control panel and under programs click uninstall a program then click Turn Windows features on or off and check IIS box. After that you'll need to click World Wide Web Services then click Application Development Features and check the CGI box.
+
+ Once you've completed the last step you'll need to enable IIS with CGI. To do this you'll need to go to the control panel and under programs click uninstall a program then click Turn Windows features on or off and check IIS box. After that you'll need to click World Wide Web Services then click Application Development Features and check the CGI box.
 </p>
 <br />
 
