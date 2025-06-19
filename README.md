@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Download this file https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
-- Enable Internet Information Services
+- Enable Internet Information Services (IIS)
 - Install PHP
 - Install MySQL
 - Install HeidiSQL
@@ -46,9 +46,10 @@ Create a virtual machine using Azure. Must have 2 CPUs and 16 GB of RAM.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lo6Q8JE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ <img src="https://i.imgur.com/sz5rSru.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Once you've completed the last step you'll need to enable IIS with CGI. To do this you'll need to go to the control panel and under programs click uninstall a program then click Turn Windows features on or off and check IIS box. After that you'll need to click World Wide Web Services then click Application Development Features and check the CGI box.
 </p>
 <br />
