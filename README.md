@@ -53,3 +53,6 @@ Create a virtual machine using Azure. Must have 2 CPUs and 16 GB of RAM.
 Once you've completed the last step you'll need to enable IIS with CGI. To do this you'll need to go to the control panel and under programs click uninstall a program then click Turn Windows features on or off and check IIS box. After that you'll need to click World Wide Web Services then click Application Development Features and check the CGI box.
 </p>
 <br />
+
+ <img src="https://i.imgur.com/zSEMtpl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Now you need to install PHP to do this you go to the osTicket-Installation-Files click and open PHPManagerForIIS_V1 5.0 msi. After opening click I agree and next.
