@@ -59,3 +59,9 @@ Once you've completed the last step you'll need to enable IIS with CGI. To do th
 
 <img src="https://i.imgur.com/u2sWRxM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Then inside the osTicket-Installation-Files open rewrite_amd64_en-US.msi after that click agree to all the steps.
+
+<img src="https://i.imgur.com/dDyu5KJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a directory called C:\PHP.
+
+<img src="https://i.imgur.com/eHTpq8J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Back in the osTicket-Installation-Files click VC_redist.x86.exe and agree to all the terms to download.
