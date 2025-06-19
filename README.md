@@ -56,3 +56,6 @@ Once you've completed the last step you'll need to enable IIS with CGI. To do th
 
  <img src="https://i.imgur.com/zSEMtpl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  Now you need to install PHP to do this you go to the osTicket-Installation-Files click and open PHPManagerForIIS_V1 5.0 msi. After opening click I agree and next.
+
+<img src="https://i.imgur.com/u2sWRxM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Then inside the osTicket-Installation-Files open rewrite_amd64_en-US.msi after that click agree to all the steps.
