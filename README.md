@@ -65,3 +65,6 @@ Create a directory called C:\PHP.
 
 <img src="https://i.imgur.com/eHTpq8J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Back in the osTicket-Installation-Files click VC_redist.x86.exe and agree to all the terms to download.
+
+<img src="https://i.imgur.com/SRmqQHP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Install MySQL 5.5.62 when you get to the choose setup screen select typical. When asked choose Standard Configuration.
