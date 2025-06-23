@@ -106,3 +106,16 @@ Rename ost-sampleconfig.php to ost-config.php to do this go to files in Windows(
 
 <img src="https://i.imgur.com/istYBEg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Open the ost-config.php file and click Properties Security - Advanced - Disable Inheritance - Remove all inherited permissions. Then we have to add permissions to do this click select a principal and in the text box at the bottom type everyone and click ok.
+
+
+<img src="https://i.imgur.com/vXbsorp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go back to the osTicket page and click continue. Fill out the first half of the page (admin email and default email must be different).
+
+
+<img src="https://i.imgur.com/FhzDiMi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vFLGEwt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Back in the osTicket-Installation-Files click HeidiSQL_12.3.0.6589_Setup then click agree and accept all terms to install. click New, username and password is Root.
+
+
+
