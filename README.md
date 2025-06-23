@@ -30,7 +30,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/S27tnyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/Xfq5of8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
 Create a virtual machine using Azure. Must have 2 CPUs and 16 GB of RAM. 
 </p>
@@ -45,6 +44,7 @@ Create a virtual machine using Azure. Must have 2 CPUs and 16 GB of RAM.
 </p>
 <br />
 
+
 <p>
 <img src="https://i.imgur.com/lo6Q8JE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -55,17 +55,54 @@ Create a virtual machine using Azure. Must have 2 CPUs and 16 GB of RAM.
 </p>
 <br />
 
+
  <img src="https://i.imgur.com/zSEMtpl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  Now you need to install PHP to do this you go to the osTicket-Installation-Files click and open PHPManagerForIIS_V1 5.0 msi. After opening click I agree and next.
+
+
 
 <img src="https://i.imgur.com/u2sWRxM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Then inside the osTicket-Installation-Files open rewrite_amd64_en-US.msi after that click agree to all the steps.
 
+
+
 <img src="https://i.imgur.com/dDyu5KJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Create a directory called C:\PHP.
+
+
 
 <img src="https://i.imgur.com/eHTpq8J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Back in the osTicket-Installation-Files click VC_redist.x86.exe and agree to all the terms to download.
 
+
+
 <img src="https://i.imgur.com/SRmqQHP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Install MySQL 5.5.62 when you get to the choose setup screen select typical, after installing launch Configuration Wizard. When asked choose Standard Configuration.
+
+
+
+<img src="https://i.imgur.com/5GFsP0N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run IIS as an administrator. Now we have to register PHP in IIS manager to do this open PHP manager and click register new PHP then browse to the PHP folder made in the C drive. Once completed reload IIS.
+
+
+
+<img src="https://i.imgur.com/bjQGZmo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now we need to extract osTicket-v1.15.8.zip from osTicket-Installation-Files into the same location. Once extrated copy the upload folder and paste it inisde the Windows(C:) - inetpub - wwwroot folder and rename it osTicket then restart IIS.
+
+
+
+<img src="https://i.imgur.com/RwAexRN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go to the osTicket folder in IIS and click browse *.80 (http).
+
+
+
+<img src="https://i.imgur.com/tnKhq6i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now we need to make some configurations for osTicket in IIS. To do this go back to IIS and click Default - osTicket - PHP Manager and enable these 3 things  php_imap.dll, php_intl.dll, php_opcache.dll.
+
+
+<img src="https://i.imgur.com/weGzJUY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Rename ost-sampleconfig.php to ost-config.php to do this go to files in Windows(C:) drive - inetpub - wwwroot - osTicket - include. Then search for the file that needs to be renamed.
+
+
+<img src="https://i.imgur.com/istYBEg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open the ost-config.php file and click Properties Security - Advanced - Disable Inheritance - Remove all inherited permissions. Then we have to add permissions to do this click select a principal and in the text box at the bottom type everyone and click ok.
