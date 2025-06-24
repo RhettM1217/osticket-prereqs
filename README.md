@@ -119,3 +119,15 @@ Back in the osTicket-Installation-Files click HeidiSQL_12.3.0.6589_Setup then cl
 
 
 
+<img src="https://i.imgur.com/G4wTNwg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+now we need to create a database named osTicket. To do this click unamed - create new - database.
+
+
+
+<img src="https://i.imgur.com/iOYlQ2u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now enter the information for the osTickt database we just created and click install.
+
+
+
+<img src="https://i.imgur.com/IAFXhC8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+osTicket is now installed.
